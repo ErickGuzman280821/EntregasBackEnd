@@ -1,10 +1,7 @@
 {
   "name": "primerpreentregaguzman",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "start:dev": "node --watch src/server.js",
-    "dev": "nodemon src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,7 +9,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
     "fs": "^0.0.1-security",
+    "socket.io": "^4.7.2",
     "uuid": "^9.0.1"
   },
   "description": ""
